@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="baslik">Guess The Number (1-100)</h1>
+        <marquee class="yazi" align="middle" scrollamount="1" height="30" width="100%" direction="down"scrolldelay="1">🔥🔥🔥Let's Start The Game!🔥🔥🔥 </marquee>
+        <div class="check">
+            <input type="text" name="number" id="number" placeholder="Enter a number">
+            <input type="submit" name="" id="check" onclick="checkNumber()" value="CHECK">
+        </div>
+        
+        <p class="finish"></p>
+        <img class="img" src="./assets/magic_hat_PNG59.png" alt="#">
+        <h3>Write the number</h3><br>
+        <p class="p1"> Number of attempts: <span id="tahmin">0</span></p>
+    </div>
+<script src="./app.js"></script>
+</body>
+
+</html>
